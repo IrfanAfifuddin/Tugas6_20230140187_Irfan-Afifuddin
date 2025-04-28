@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://res.klook.com/image/upload/v1658288130/kgymkjjwsvaokhzbfb0x.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Metal Mania', system-ui;
+    font-size: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #cec9c6;
+    margin-top: 40px;
+    text-shadow: 1px 1px 3px #000;
+    border: 2px solid #5c5857;
+    border-radius: 15px;
+    background: #4d4c4c;
+    align-items: center;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+video, audio {
+    margin: 20px 0;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+div img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 12px rgba(72, 72, 71, 0.6);
+}

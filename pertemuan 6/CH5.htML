@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Web</title>
+    <link rel="stylesheet" href="StyleCH5.css">
+</head>
+
+<body>
+    <center>
+        <h1>Slash Solo Guitar - Tokyo 1992
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+            </style>
+        </h1>
+        <ul>
+            <li>
+                <h2 id="Video">Video</h2>
+                <video width="320" height="240" controls poster="slashsolo.mp4">
+                    <source src="slashsolo.mp4" type="video/mp4">
+                </video>
+            </li>
+            <li>
+                <h2 id="Audio">Audio</h2>
+                <audio controls>
+                    <source src="slashsolo.mp4" type="audio/mpeg">
+                </audio>
+            </li>
+            <li>
+                <h2 id="Images">Images</h2>
+                <picture>
+                    <source media="(max-width: 600px)"
+                        srcset="https://imageio.forbes.com/specials-images/imageserve/67a7b1b49fdd72d173a1375d/Slash-Featuring-Myles-Kennedy---The-Conspirators-With-Tash-Neal---Nashville--TN/0x0.jpg?format=jpg&crop=2720,2040,x0,y151,safe&width=960">
+                    <source media="(max-width: 1200px)"
+                        srcset="https://www.guitarnoise.com/wp-content/uploads/slash.jpg">
+                    <img
+                        src="https://imageio.forbes.com/specials-images/imageserve/67a7b1b49fdd72d173a1375d/Slash-Featuring-Myles-Kennedy---The-Conspirators-With-Tash-Neal---Nashville--TN/0x0.jpg?format=jpg&crop=2720,2040,x0,y151,safe&width=960">
+                </picture>
+            </li>
+        </ul>
+    </center>
+    <script src="jsCH5.js"></script>
+</body>
+
+</html>
